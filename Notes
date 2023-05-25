@@ -1,0 +1,8 @@
+Load balancer
+  -TLS (Transport Layer Security) is a newwer version of SSL (Secure Socket Layer). A protocol used to securely transmit data (password, cookies, CC number, or any type of PPI).
+  -SNI (Server Name Indication) is used with ALB to support the bind of multiple certificates (up to 25 + the default certificate) in a same ALB to handle different domains. Drawback: Have to reauthenticate and reprovidsion everytime a new domain is added.
+  -Smart Certicate Selection leverages the SNI protocol extension to automatically select the appropriate SSL/TLS certificate based on the client's requested domain name.
+
+RDS / Aurora
+  Aurora Severless: 
+  
